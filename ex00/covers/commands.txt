@@ -1,0 +1,82 @@
+405  mkdir Day00
+  406  cd Day00
+  407  ll
+  408  ls -la
+  409  mkdir ex00
+  410  cd ..
+  411  ll
+  412  ls -la
+  413  pwd
+  414  chmod -R 777 Day00
+  415  ll -la
+  416  ls -la
+  417  cd Day00/ex00
+  418  ll
+  419  ls
+  420  ls -la
+  421  rm -rf .DS_Store
+  422  ls -la
+  423  chmod -R 777 covers
+  424  cd covers
+  425  mkdir Constructeurs
+  426  mkdir Sony Nintendo Microsoft Sega
+  427  mkdir Sony Nintendo/Consoles Nintendo/Consoles_portables Microsoft/Consoles Sega/Consoles Sony/Consoles Sony/Consoles_portables
+  428  mkdir Sony Nintendo/Consoles Nintendo/Consoles_portables Microsoft/Consoles Sega/Consoles Sony Sony/Consoles Sony/Consoles_portables
+  429  ls -la
+  430  mkdir Sony/Consoles/PS4 Sony/Consoles/PS5 Microsoft/Xbox Microsoft/Xbox360 Sega/Consoles/Dreamcast Nintendo/Consoles/Gamecube Nintendo/Consoles_portables/Game_Boy
+  431  mv dc_jetgrindradio_10.jpg dc_jetsetradio_eu_front.jpg dc_shenmue_eu.jpg dc_shenmueii_5.jpg
+  432  mv -t Sega/Consoles/Dreamcast  dc_jetgrindradio_10.jpg dc_jetsetradio_eu_front.jpg dc_shenmue_eu.jpg dc_shenmueii_5.jpg
+  433  ls -la
+  434  mv dc_jetgrindradio_10.jpg dc_jetsetradio_eu_front.jpg dc_shenmue_eu.jpg dc_shenmueii_5.jpg Sega/Consoles/Dreamcast
+  435  ls -la
+  436  mv gameboy.pokmonred.jpg gb_pokemonblue_eu.jpg gb_pokemonyellow_au.jpg  Nintendo/Consoles_portables/Game_Boy
+  437  ls -la
+  438  mkdir Nintendo/Consoles_portables/Game_Boy_Color
+  439  ls -la
+  440  mv gb_pokemongreen_3.jpg Nintendo/Consoles_portables/Game_Boy
+  441  mv gbc_pokemongold.jpg gc_mariokartdoubledash.jpg gc_supermariosunshine.jpg gc_supermariosunshine.jpg Nintendo/Consoles_portables/Game_Boy_Color
+  442  mv playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg playstation_4.assassinscreedodyssey.jpg Sony/Consoles/PS4
+  443  ls -la
+  444  mv ps4_fifa14.jpg Sony/Consoles/PS4
+  445  mv playstation_5.assassinscreedvalhalla.jpg playstation_5.farcry6.jpg playstation_5.residentevilvillage_.jpg Sony/Consoles/PS5
+  446  ls -la Microsoft/
+  447  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg xbox_360.fableiii.jpg Microsoft/Consoles
+  448  mv Microsoft/Xbox Microsoft/Xbox360 Microsoft/Consoles
+  449  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg xbox_360.fableiii.jpg Microsoft/Consoles/Xbox360
+  450  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg xbox_360.fableiii.jpg Microsoft/Consoles/Xbox360
+  451  ls Microsoft
+  452  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg xbox_360.fableiii.jpg Microsoft/Consoles/Xbox360
+  453  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg xbox_360.fableiii.jpg Microsoft/Consoles/
+  454  ls Microsoft
+  455  ls Microsoft/Consoles
+  456  cd  Microsoft/Consoles
+  457  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg xbox_360.fableiii.jpg Xbox360
+  458  ls
+  459  cd ..
+  460  ls
+  461  cd ..
+  462  ls
+  463  mv Microsoft Nintendo Sony Sega Constructeurs
+  464  ll
+  465  ls
+  466  ls -la
+  467  mv xbox_deadoralive3.jpg xbox_deadtorights.jpg xbox_defjamfightforny.jpg xbox_halo2.jpg xbox_halo_2.jpg xbox_jetsetradiofuture_2.jpg xbox_needforspeedunderground2.jpg Constructeurs/Microsoft/Consoles/Xbox/
+  468  ls
+  469  history
+  470  cat commands.txt
+  471  vim commands.txt
+  472  more commands.txt
+  473  ls -lq
+  474  ls -la
+  475  rm -rf .DS_Store
+  476  ls -la Constructeurs
+  477  ls -la Constructeurs/Microsoft
+  478  ls -la Constructeurs/Nintendo
+  479  ls -la Constructeurs/Nintendo/Consoles_portables
+  480  ls -la Constructeurs/Nintendo/Consoles_portables/Game_Boy_Color
+  481  mv Constructeurs/Nintendo/Consoles_portables/Gamecube
+  482  mkdir Constructeurs/Nintendo/Consoles_portables/Gamecube
+  483  mv Constructeurs/Nintendo/Consoles_portables/Game_Boy_Color/gc_mariokartdoubledash.jpg Constructeurs/Nintendo/Consoles_portables/Game_Boy_Color/gc_supermariosunshine.jpg Constructeurs/Nintendo/Consoles_portables/Gamecube\n
+  484  history
+  485  history 100
+  486  history 1
