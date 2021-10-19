@@ -1,0 +1,1 @@
+sed 's/cadillac jaune/chevrolet impala/g;s/rouge/vert/g;' deposition_Joe_Rugiani.txt
