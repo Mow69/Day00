@@ -1,0 +1,2 @@
+awk -F , '$2 == "Officer" { print }' tcpd_department.csv > tcpd_officers.txt
+awk -F , '$2 == "Officer" && $1 == "Cameron" { print }' tcpd_department.csv > tcpd_expert_officers.txt
